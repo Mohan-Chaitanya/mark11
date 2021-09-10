@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom left,
+    rgb(107, 247, 107),
+    rgb(199, 199, 199)
+  );
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.inputs button {
+  width: 30%;
+  margin-left: 8vw;
+}
+
+input {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  width: 10rem;
+}
+
+button {
+  width: 5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 2rem;
+  margin: 1rem;
+  box-shadow: 1px 2px 2px 0px;
+  color: black;
+  background-color: hsla(295, 87%, 59%, 0.562);
+  border: none;
+  border-radius: 3px;
+}
+
+.form_div {
+  margin: 2rem;
+}
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 2rem;
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+}
